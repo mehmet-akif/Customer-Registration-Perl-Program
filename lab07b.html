@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration for Customers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="tel"],
+        input[type="file"],
+        select {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Registration for Customers</h2>
+
+    <form action="https://www2.cs.torontomu.ca/~asipahi/cgi-bin/lab07b.cgi" method="post" enctype="multipart/form-data">
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+
+        <label for="street_name">Street Name:</label>
+        <input type="text" id="street_name" name="street_name">
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city">
+
+        <label for="postalCode">Postal Code (L0L 0L0):</label>
+        <input type="text" id="postal_code" name="postal_code" title="Enter a valid postal code">
+
+        <label for="province">Province:</label>
+        <select id="province" name="province">
+            <option value="" disabled selected>Select Province</option>
+            <option value="Ontario">Ontario</option>
+            <option value="British Columbia">British Columbia</option>
+            <option value="Quebec">Quebec</option>
+            <option value="Alberta">Alberta</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="New Brunswick">New Brunswick</option>
+            <option value="Newfoundland and Labrador">Newfoundland and Labrador</option>
+            <option value="Nova Scotia">Nova Scotia</option>
+            <option value="Prince Edward Island">Prince Edward Island</option>
+            <option value="Saskatchewan">Saskatchewan</option>
+            <option value="Northwest Territories">Northwest Territories</option>
+            <option value="Nunavut">Nunavut</option>
+            <option value="Yukon">Yukon</option>
+        </select>
+
+        <label for="phone_number">Phone Number (10 digits):</label>
+        <input type="tel" id="phone_number" name="phone_number" title="Enter a 10-digit phone number">
+
+        <label for="email">Email Address:</label>
+        <input type="text" id="email" name="email">
+
+        <label for="photo">Photograph (Photo Upload):</label>
+        <input type="file" id="photo" name="photo" accept=".png, .gif, .jpg, .jpeg">
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
