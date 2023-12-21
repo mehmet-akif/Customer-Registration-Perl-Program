@@ -1,6 +1,5 @@
 # Customer Registration Perl Program
 
-![Customer Registration](registration.png)
 
 ## Description
 This Perl-based Customer Registration Program offers a seamless form-based interface for users to register personal information and upload photographs. With robust error handling and secure data processing, it ensures accurate submissions, providing a reliable solution for customer data collection. Emphasizing efficiency and user experience, this program showcases Perl's capabilities in web-based form handling.
