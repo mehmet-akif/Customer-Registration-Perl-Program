@@ -6,9 +6,9 @@ This Perl-based Customer Registration Program offers a seamless form-based inter
 
 ## Link and Screenshots
 
-![Perl registration form](screenshot1.png)
-![Perl registration form](screenshot2.png)
-![Perl registration form](screenshot3.png)
+![Perl registration form](screenshot1.jpeg)
+![Perl registration form](screenshot2.jpeg)
+![Perl registration form](screenshot3.jpeg)
 
 For an interactive experience, check out the live website: https://www.cs.ryerson.ca/~asipahi/lab07b.html
 
