@@ -3,11 +3,12 @@
 
 ## Description
 This Perl-based Customer Registration Program offers a seamless form-based interface for users to register personal information and upload photographs. With robust error handling and secure data processing, it ensures accurate submissions, providing a reliable solution for customer data collection. Emphasizing efficiency and user experience, this program showcases Perl's capabilities in web-based form handling.
-## Screenshots
 
-![Perl registration form](path_to_your_demo_image.png)
-![Perl registration form](path_to_your_demo_image.png)
-![Perl registration form](path_to_your_demo_image.png)
+## Link and Screenshots
+
+![Perl registration form](screenshot1.png)
+![Perl registration form](screenshot2.png)
+![Perl registration form](screenshot3.png)
 
 For an interactive experience, check out the live website: https://www.cs.ryerson.ca/~asipahi/lab07b.html
 
@@ -21,12 +22,14 @@ For an interactive experience, check out the live website: https://www.cs.ryerso
 1. Run the Perl program in your Perl environment.
 2. Access the customer registration form via the provided URL.
 3. Input the required personal information and upload a photograph file.
-4. Submit the form and follow on-screen instructions for error handling and successful registration.
+4. Submit the form and follow on-screen instructions for error handling and successful registration.    
 
 ## Technology Stack
 - **Perl**: Backend programming language for form processing.
 - **HTML/CSS**: Frontend for creating the registration form and styling.
 
+## VPN Requirement
+- **Note**: Connection via Ryerson VPN is required to access and interact with the application.  
 
 ## Security Notice
 Ensure the program is deployed in a secure environment to protect user data and uploaded files.
